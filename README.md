@@ -329,7 +329,3 @@ Response:
   ]
 }
 ```
-
-## License
-
-[MIT License](LICENSE) 
