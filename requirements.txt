@@ -12,3 +12,4 @@ streamlit
 faiss-cpu
 requests
 python-dotenv
+sse-starlette

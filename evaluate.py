@@ -5,9 +5,11 @@ import streamlit as st
 import pandas as pd
 import requests
 import random
+import os
 
 # API endpoint
-API_BASE_URL = "http://localhost:8000"
+API_BASE_URL = os.getenv("BASE_URL")
+
 
 # Streamlit App Configuration
 st.set_page_config(page_title="Module Classifier Evaluation", layout="wide")
@@ -18,7 +20,7 @@ def main():
     
     try:
         # Load dataset
-        df = pd.read_csv(eval.csv)
+        df = pd.read_csv("eval.csv")
         
         if st.checkbox("Show sample data"):
             st.write(df.head())

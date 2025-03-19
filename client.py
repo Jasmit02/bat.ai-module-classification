@@ -3,10 +3,10 @@ Streamlit client for the Module Classification System.
 """
 import streamlit as st
 import requests
-import json
+import os
 
 # API endpoint
-API_BASE_URL = "http://10.7.4.3:5051"
+API_BASE_URL = os.getenv("BASE_URL")
 
 # Streamlit App Configuration
 st.set_page_config(page_title="Module Classifier", layout="wide")
