@@ -110,7 +110,7 @@ The system is built on a modern tech stack with several key components:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-org/module-classification-system.git
+   git clone https://github.com/Jasmit02/bat.ai-module-classification-system.git
    cd module-classification-system
    ```
 
@@ -121,7 +121,7 @@ The system is built on a modern tech stack with several key components:
 
 3. Configure your environment:
    - Update `config.py` with your NVIDIA API key and model preferences
-   - Ensure your FAISS index is in the correct location (default: `C:\MultiAgent Assignment\RAG_Log\DBS-Faiss-Passage\faiss-llama-passage-32768-16348-new`)
+   - Ensure your FAISS index is in the correct location
 
 ## Usage
 
@@ -205,7 +205,7 @@ Combines multiple retrieval approaches for comprehensive document search:
 │                     EnsembleRetriever                              │
 │            (Combines retrievers with weights)                      │
 │                                                                    │
-└──────────────────────────────┬─────────────────────────────────────┘
+└────────────────────────────────────────────────────────────────────┘
 ```
 
 Key features:
