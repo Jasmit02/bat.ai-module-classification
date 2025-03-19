@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+langchain
+langchain-nvidia-ai-endpoints
+langchain-community
+langchain-text-splitters
+langchain-core
+langserve
+pandas
+pydantic
+streamlit
+faiss-cpu
+requests
+python-dotenv
