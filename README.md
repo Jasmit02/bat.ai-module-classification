@@ -74,19 +74,19 @@ The system is built on a modern tech stack with several key components:
              │                           │
              │                           │
 ┌────────────▼───────────────────────────▼─────────────────────────────────────┐
-│                                                                             │
-│                        NVIDIA AI & Vector Database                          │
-│                                                                             │
-│  ┌────────────────────────────┐      ┌────────────────────────────────────┐ │
-│  │                            │      │                                    │ │
-│  │  NVIDIA AI Endpoints       │      │  FAISS Vector Store                │ │
-│  │  - ChatNVIDIA (LLM)        │      │  - Document Retrieval              │ │
-│  │  - NVIDIAEmbeddings        │      │  - Semantic Search                 │ │
-│  │  - NVIDIARerank            │      │  - ParentChild Retriever           │ │
-│  │                            │      │                                    │ │
-│  └────────────────────────────┘      └────────────────────────────────────┘ │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
+│                                                                              │
+│                        NVIDIA AI & Vector Database                           │
+│                                                                              │
+│  ┌────────────────────────────┐      ┌────────────────────────────────────┐  │
+│  │                            │      │                                    │  │
+│  │  NVIDIA AI Endpoints       │      │  FAISS Vector Store                │  │
+│  │  - ChatNVIDIA (LLM)        │      │  - Document Retrieval              │  │
+│  │  - NVIDIAEmbeddings        │      │  - Semantic Search                 │  │
+│  │  - NVIDIARerank            │      │  - ParentChild Retriever           │  │
+│  │                            │      │                                    │  │
+│  └────────────────────────────┘      └────────────────────────────────────┘  │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ## Features
